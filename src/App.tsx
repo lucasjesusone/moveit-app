@@ -1,26 +1,15 @@
+import React from 'react';
+import ExperienceBar from './components/ExperienceBar';
 
-import { useState } from 'react'
-
-
+import './styles/global.css'
 
 
 function App() {
-  const [ counter, SetCounter] = useState(1)
-
-  function increment() {
-  SetCounter(counter + 1 )
-}
-
-
-  return (
-   <button
-   onClick={increment}
-   style={{backgroundColor: 'blue'}}
-   >
-     Incremente
-     <span>{counter}</span>
-   </button> 
-  );
+ return (
+    <div className='container'>
+      <ExperienceBar />
+    </div>
+ );
 }
 
 export default App;
