@@ -1,23 +1,20 @@
-import React from 'react'
-import styles from '../styles/components/ExperienceBar.module.css'
+import React from "react";
+import styles from "../styles/components/ExperienceBar.module.css";
 
 function ExperienceBar() {
+  return (
+    <header className={styles.experienceBar}>
+      <span>0 xp</span>
+      <div>
+        <div style={{ width: "50%" }} /> {/*Tamanho da barra */}
+        <span className={styles.currentExperience} style={{ left: "50%" }}>
+          300 xp
+        </span>
+      </div>
 
-
-
-
-    return (
-        <header className={styles.experienceBar}>
-            <span>0 xp</span>
-            <div>
-                <div style={{width: '50%'}} />          { /*Cor da barra */  }
-
-                <span className={styles.currentExperience} style={{left: '50%'}}>300 xp</span>
-            </div>
-            
-            <span>600 xp</span>
-        </header>
-    )
+      <span>600 xp</span>
+    </header>
+  );
 }
 
-export default ExperienceBar
+export default ExperienceBar;
