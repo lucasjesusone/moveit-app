@@ -23,6 +23,8 @@
 .countdownContainer > div span {
     flex: 1;
 
+
+    
 }
 
 .countdownContainer > div span:first-child {

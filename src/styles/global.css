@@ -25,7 +25,7 @@
     html {
         font-size: 93.75%;
     }
-}
+}    
 
 @media(max-width: 720px) {
     html {
@@ -33,14 +33,19 @@
     }
 }
 
+
+
+
 body {
     background: var(--background);
     color: var(--text);
 }
 
 body, input, textarea, button {
-    font: 400 1rem "Inter", sans-serif;
+    font: 400   1rem "Inter", sans-serif;
 }
+
+
 
 button {
     cursor: pointer
