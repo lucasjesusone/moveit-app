@@ -10,7 +10,7 @@ const options = {
             clientId: process.env.
             clientSecret: process.env
             authorizationUrl: ""
-        }),,
+        }),
 
     ]
     session: {

@@ -24,7 +24,7 @@ export default function Login() {
           <span>
             <p>
               <img src="/icons/github.svg" alt="github logo" />
-              Acesse com seu Github para começar
+              Acesse com o GitHub
             </p>
           </span>
 
